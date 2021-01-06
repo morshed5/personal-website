@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;    
+}
+
+.navbar{
+    padding-bottom: 20px;
+}
+.navbar ul{
+    display: inline;
+    margin-right: 25px;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    float: right;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #3a3838;
+}
+
+/*****************
+Navbar design End
+****************/
+
+.profile-1{
+    overflow: hidden;
+    width: 100%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding: 2%;
+}
+
+.half-width h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.color-highlight{
+    color: #f31a1a;
+}
+.half-width p{
+    padding: 5px;
+    font-size: 16px;
+    padding-bottom: 30px;
+    line-height: 22px;
+    text-align: justify;
+    margin:8px 0;
+    width: 80%;
+}
+.link-button{
+    background-image:linear-gradient(180deg, #f39c12, #f1c40f);
+    color: #fff;
+    padding: 8px 26px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.fa{
+    padding-right:3px;
+}
+
+.half-width img{
+    width:90%;
+}
+
+.profile-2{
+    overflow: hidden;
+    width: 100%;
+}
+.half-width h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+/*******************
+Header Area
+**********************/
+
+.work-projects{
+    background-color: #ecf0f1;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+.work-projects h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px;
+}
+
+.card{
+    width: 25%;
+    background: #edf2f5;
+    display:inline-block;
+    margin-left: 2%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+}
+.card img{
+    width: 100%;
+}
+.card h3{
+    padding: 7px;
+    text-align: left;
+}
+.card p{
+    text-align: left;
+}
+#center{
+    margin-left: 11%;
+}
+
+
+
+/**********
+Services
+**************/
+
+.bg{
+    background-color: #c5bfbf;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.services{
+    margin: 5% auto;
+    width: 1124px;
+    padding-bottom: 30px;
+    overflow: hidden;    
+}
+
+
+.services h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.single-service{
+    width: 31%;
+    overflow: hidden;
+    float: left;
+    margin-left: 2%;
+    padding: 20px 50px;
+    background-color:#7fc7f7; 
+    margin-top: 2%;
+    border-radius: 10px;;
+    
+       
+}
+
+.single-service h3{
+    text-align:center;
+    color: #ecf0f1;
+    padding: 15px;
+}
+.single-service p {
+    text-align: justify;
+    
+}
+
+
+/*****************
+Service Area End
+****************/
+
+
+.imgcs{
+    width: 60%;
+    height: 200px;
+    margin: 55px auto;
+    background-image: url("images/wkq.png");
+    background-position: cnter;
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+}
+
+.h-width{
+    float: left;
+    padding: 80px;
+    margin-left: 2%;
+    color: #fff;
+}
+
+
+
+.button{
+    width: 100%;
+    margin: 5% 0;
+}
+.conted{
+    text-align: center;
+    padding: 5px;
+    line-height: 35px;
+}
+.conted h3{
+    font-size: 18px;
+}
+
+.icon{
+    text-align: center;
+}
+.icon img{
+    width: 4%;
+    padding: 6px;
+}
+
+/*******
+FInshid My first page design
+**************************/
